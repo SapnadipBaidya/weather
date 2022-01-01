@@ -1,0 +1,64 @@
+html{
+    background-color: aqua;
+    transition: 2s;
+}
+
+.main{
+
+height: 100vh;
+display: block;
+background-color: blanchedalmond;
+
+   
+}
+.banner{
+    position: relative;
+    height: 50px;
+    background-color: rgb(94, 180, 72);
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.book{
+    position: relative;
+    background-color: rgb(53, 134, 167);
+}
+.book:hover{
+    position: relative;
+    background-color: rgb(48, 197, 110);
+    transition: 2s;
+}
+
+.contact{
+    position: relative;
+    background-color: rgb(53, 134, 167);
+}
+.contact:hover{
+    position: relative;
+    background-color: rgb(48, 197, 110);
+}
+.about{
+    position: relative;
+    background-color: rgb(53, 134, 167);
+}
+.about:hover{
+    position: relative;
+    background-color: rgb(48, 197, 110);
+}
+
+.bodyimg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color: blueviolet;
+    height: 500px;
+}
+.kid{
+    background-color: rgb(173, 216, 92);
+    position: relative;
+    top:30px;
+}
+
+.kid:hover{
+   display: none;
+}
